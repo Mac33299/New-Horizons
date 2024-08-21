@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c70d8f290dd0284b87588ddf6666874, type: 3}
+  m_Name: J-IC_Flag
+  m_EditorClassIdentifier: 
+  multiple: 0
+  segments: []
+  colorTex:
+    textures:
+    - texture: {fileID: 2800000, guid: 77687bb996dfc86499cd1bcba5ff78ee, type: 3}
+      ideal: 0
+    border_Bottom:
+      uvSize: 0
+      sizeMode: 0
+      size: 1.6
+    border_Top:
+      uvSize: 0
+      sizeMode: 0
+      size: 0.5
+    center:
+      mode: 1
+      sizeMode: 0
+      size: 3.5
+      logoHeightPercent: 0.5
+      scaleLogoToFit: 0
+    fixedWidth: 0
+    fixedWidthValue: 1
+    flipToLight_X: 0
+    flipToLight_Y: 0
+    metalTexture: 0
+    icon: {fileID: 21300000, guid: 08e514917344b6a40bf87166c114a726, type: 3}
+  tags: []
+  pack_Redstone_Atlas: 0
