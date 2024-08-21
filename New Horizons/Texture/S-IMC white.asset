@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c70d8f290dd0284b87588ddf6666874, type: 3}
+  m_Name: S-IMC white
+  m_EditorClassIdentifier: 
+  multiple: 0
+  segments: []
+  colorTex:
+    textures:
+    - texture: {fileID: 2800000, guid: 4295f74214f515f438ca5f715580cd9c, type: 3}
+      ideal: 0
+    border_Bottom:
+      uvSize: 0
+      sizeMode: 1
+      size: 0
+    border_Top:
+      uvSize: 0
+      sizeMode: 1
+      size: 0
+    center:
+      mode: 1
+      sizeMode: 0
+      size: 3.5
+      logoHeightPercent: 0.6
+      scaleLogoToFit: 0
+    fixedWidth: 0
+    fixedWidthValue: 1
+    flipToLight_X: 0
+    flipToLight_Y: 0
+    metalTexture: 0
+    icon: {fileID: -6601691336363857274, guid: f89597e0706c050418fee1269d2142d4, type: 3}
+  tags:
+  - simc
+  pack_Redstone_Atlas: 0
