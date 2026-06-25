@@ -16,7 +16,7 @@ MonoBehaviour:
   segments: []
   colorTex:
     textures:
-    - texture: {fileID: 2800000, guid: 77687bb996dfc86499cd1bcba5ff78ee, type: 3}
+    - texture: {fileID: 2800000, guid: bf3e665cc20c7bd4f929fa8548471e22, type: 3}
       ideal: 0
     border_Bottom:
       uvSize: 0

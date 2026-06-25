@@ -16,7 +16,7 @@ MonoBehaviour:
     TranslatableName: Pentaborane
     plainText: 1
   resourceUnit:
-    TranslatableName: Mass
+    TranslatableName: Mass_Unit
     plainText: 0
   resourceMass: 1
   transferRate: 1

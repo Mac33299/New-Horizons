@@ -37,7 +37,7 @@ MonoBehaviour:
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
-    icon: {fileID: 21300000, guid: 5a26ea238840209478ac74864f76bf4d, type: 3}
+    icon: {fileID: 21300000, guid: d47a98f42b33f3744979e099bff84097, type: 3}
   tags:
   - msii
   pack_Redstone_Atlas: 0
