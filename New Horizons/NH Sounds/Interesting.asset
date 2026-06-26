@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Interesting
   m_EditorClassIdentifier: 
   sounds:
-  - clip: {fileID: 8300000, guid: 14ccc3ee99552fc4a9b6edf6b3e1b1ef, type: 3}
+  - clip: {fileID: 8300000, guid: eda3d0cfc1acc0c4db46feb3e85b1962, type: 3}
     volume: 1
     pitch: 1
     delay: 0

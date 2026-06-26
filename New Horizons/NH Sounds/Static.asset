@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Static
   m_EditorClassIdentifier: 
   sounds:
-  - clip: {fileID: 8300000, guid: 93ceace380372e34fa234aa02df5face, type: 3}
+  - clip: {fileID: 8300000, guid: 11c1ebecd2b65e44399dfad09ecde95e, type: 3}
     volume: 1
     pitch: 1
     delay: 0
