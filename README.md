@@ -1,5 +1,5 @@
 # New-Horizons
-![New Horizons logo real2](https://github.com/Mac33299/New-Horizons/assets/110599229/6934e170-56a8-4e50-98ab-ff4abf6a50a3)
+<img width="1080" height="1080" alt="square logo NH" src="https://github.com/user-attachments/assets/438b1b4f-8ff8-4dbe-b04c-ec29906c5655" />
 Addon for BR-Apollo | Adding cancelled-concept and more.
 
 Made to be used with: https://github.com/briocherockets/BR-Apollo
