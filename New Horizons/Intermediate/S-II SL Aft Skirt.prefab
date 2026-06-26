@@ -2132,7 +2132,7 @@ MonoBehaviour:
     TranslatableName: S-II SL Aft Skirt
     plainText: 1
   description:
-    TranslatableName: 10m Skirt section for the Saturn II
+    TranslatableName: '10m Skirt section for the Saturn II (fyi: does not detach)'
     plainText: 1
   mass:
     variables: {fileID: 128775577033961292}

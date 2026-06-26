@@ -28060,6 +28060,7 @@ GameObject:
   - component: {fileID: 5731760507600451043}
   - component: {fileID: 1199624303987525171}
   - component: {fileID: 5504048358052973020}
+  - component: {fileID: 4884027068305275935}
   m_Layer: 8
   m_Name: FLOutpost
   m_TagString: Untagged
@@ -28129,7 +28130,8 @@ MonoBehaviour:
     plainText: 1
   description:
     TranslatableName: A Massive 4 Man Lunar Habitat, functions as a drop in replacement
-      to the MCSM system on the FLO descent stage. Activate to Deploy Solar Array
+      to the MCSM system on the FLO descent stage. Activate to Enable RCS, Stage
+      to Deploy Solar Array
     plainText: 1
   mass:
     variables: {fileID: 6025496177165280511}
@@ -28165,22 +28167,10 @@ MonoBehaviour:
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 600205691039057165}
-        m_TargetAssemblyTypeName: SFS.Parts.Modules.MoveModule, Assembly-CSharp
-        m_MethodName: Toggle
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 326597982584803253}
-        m_TargetAssemblyTypeName: SFS.Parts.Modules.MoveModule, Assembly-CSharp
-        m_MethodName: Toggle
-        m_Mode: 1
+      - m_Target: {fileID: 4884027068305275935}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.ActivationZoneModule, Assembly-CSharp
+        m_MethodName: OnPartUsed
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -28619,6 +28609,62 @@ MonoBehaviour:
     variables: {fileID: 6025496177165280511}
     input: 3
   showDescription: 1
+--- !u!114 &4884027068305275935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025496177165280394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3029d8474a39a41528f580a2de6e4407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationZones: []
+  onPartUsed_Default:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5731760507600451043}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.RcsModule, Assembly-CSharp
+        m_MethodName: ToggleRCS
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  overwriteOnStage: 1
+  onPartUsed_Staging:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 600205691039057165}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.MoveModule, Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326597982584803253}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.MoveModule, Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6193348069476558958
 GameObject:
   m_ObjectHideFlags: 0

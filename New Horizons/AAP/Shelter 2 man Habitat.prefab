@@ -10229,10 +10229,10 @@ MonoBehaviour:
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4355835229077590899}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ToggleTransfer
-        m_Mode: 1
+      - m_Target: {fileID: 5731760507600451043}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.RcsModule, Assembly-CSharp
+        m_MethodName: ToggleRCS
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
